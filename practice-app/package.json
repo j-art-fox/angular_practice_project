@@ -6,7 +6,8 @@
     "start": "ng serve",
     "build": "ng build",
     "watch": "ng build --watch --configuration development",
-    "test": "ng test"
+    "test": "ng test",
+    "save": "git add -A && git commit -m completed_next_lesson && git push"
   },
   "private": true,
   "dependencies": {
