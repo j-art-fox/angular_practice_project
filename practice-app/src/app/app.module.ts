@@ -6,10 +6,11 @@ import { BrowserModule } from '@angular/platform-browser';
 import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './app.component';
 import { ServerComponent } from './server/server.component';
+import { ServersComponent } from './servers/servers.component';
 
 //this is the NgModule decorator. Decorators are a design pattern that is used to separate modification or decoration of a class without modifying the original source code.
 @NgModule({
-  declarations: [AppComponent, ServerComponent],
+  declarations: [AppComponent, ServerComponent, ServersComponent],
 
   imports: [BrowserModule, AppRoutingModule],
 
