@@ -7,5 +7,5 @@ import { Component } from '@angular/core';
 })
 //"data binding"
 export class AppComponent {
-  name = 'Jordan';
+  title = 'Jordan';
 }
