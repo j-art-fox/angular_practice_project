@@ -2,6 +2,7 @@
 // a module is a bundle of functionalities of an app and features for the AppComponent.
 
 import { NgModule } from '@angular/core';
+import { FormsModule } from '@angular/forms';
 import { BrowserModule } from '@angular/platform-browser';
 import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './app.component';
@@ -20,7 +21,7 @@ import { WarningalertComponent } from './warningalert/warningalert.component';
     SuccessalertComponent,
   ],
 
-  imports: [BrowserModule, AppRoutingModule],
+  imports: [BrowserModule, AppRoutingModule, FormsModule],
 
   providers: [],
 
