@@ -9,6 +9,7 @@ export class ServersComponent implements OnInit {
   userName = '';
   userCreationStatus = 'No users saved';
   allowNewUser = false;
+  serverCreated = false;
 
   allowNewServer = false;
   serverCreationStatus = 'No server was created';
@@ -39,8 +40,10 @@ export class ServersComponent implements OnInit {
 
   // server methods
   onCreateServer() {
+    this.serverCreated = true;
     this.serverCreationStatus =
       'Server was Created! The name is ' + this.serverName;
+    this.serverName = '';
   }
 
   onUpdateServerName(event: any) {
